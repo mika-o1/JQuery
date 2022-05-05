@@ -1,0 +1,63 @@
+*{
+    justify-content: center;
+}
+body{
+    background-color: #000;
+}
+.main-card{
+    border: 1px solid black;
+    margin: 10px 500px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+button{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 16px;
+    padding: 12px 24px 14px;
+    border-radius: 500px ;
+    background-color: #dddddd;
+    cursor: pointer;
+}
+.button-main .active{
+    background-color: #000;
+    color: #fff;
+}
+
+.button-main{
+    display: flex;
+}
+.block-1 {
+    display: flex;
+}
+.block-2 {
+    display: flex;
+}
+.button-block{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+h1{
+    margin-right: 30px;
+}
+.text{
+    position: relative;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.text-span{
+    font-size: 15px;
+}
+
+.button-block .active{
+    display: none;
+    position: relative;
+}
